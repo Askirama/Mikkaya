@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  padding: auto;
+}
+
+.nav-links{
+flex: 1;
+text-align: right;
+}
+.nav-links ul li{
+list-style: none;
+display: inline-block;
+padding: 8px 12px;
+position: relative;
+}
+.nav-links ul li a{
+text-decoration: none; 
+color: #fff;
+font-size: 20px;
+}
+
+.nav-links ul li::after{ 
+ content: '';
+ width: 0;
+ height: 2px;
+ background: rgb(1,43,9);
+ display:block;
+ margin: auto;
+ transition: 0.5s;
+}
+.nav-links ul li:hover:after{
+width: 100%;
+}
+
+body {
+
+    background: url("pic3.png")no-repeat;
+    background-size: 100% 37%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+.container {
+  max-width: 500px;
+  position: relative;
+  top: 14rem;
+  
+}
+.info{
+    margin-left: 50%;
+    margin-bottom: 100%;
+}
+
+h1 { position: relative;
+  color: rgb(76, 230, 99);
+  text-align: center;
+  bottom : 10rem;
+}
+
+h2 { position:relative;
+    color: rgb(1, 43, 7);
+    left: 40rem;
+    bottom: 20rem;
+    font-family: Arial;
+    font-size: 24px;}
+
+h3 { position:relative;
+    color: rgb(1, 43, 7);
+    left: 40rem;
+    bottom: 20rem;
+    width: 30rem;
+    font-family: Arial;
+    font-size: 22px;}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color:  rgb(1, 43, 7);
+}
+#object10{
+position: relative;
+color: #000;
+bottom: 10rem;
+
+}
+#last{
+position: relative;
+color: #6e6e6e;
+text-align: center;
+font-size: 15px;
+bottom: 10rem;
+}
+.myhead{
+  position: relative;
+  top: 13rem;
+}
+@media screen
+and (max-device-width: 1000px)
+and (min-device-width: 350px){ 
+.nav-links { font-size: 30px; } 
+.nav-links ul li { display: block; padding: 8px 0; } 
+.container{
+display: block;
+position: relative;
+padding-left: 10rem;
+top: 50rem;
+height: 100rem;
+}
+body{
+  background-size: 100rem 50rem;
+}
+.myhead{
+  position: relative;
+  right: 30rem;
+}
+h2{
+  font-size: 70px;
+}
+h3{
+  font-size: 50px;
+}
+#object10{
+  width: 100rem;
+  left: 0;
+  bottom: 10rem;
+}
+#last{
+  bottom: 10rem;
+}
+#name{
+  width: 30rem;
+  height: 5rem;
+}
+#email{
+  width: 30rem;
+  height: 5rem;
+}
+#message{
+  width: 30rem;
+  height: 5rem;
+}
+label {
+  font-size: 50px;
+}
+input[type="submit"] {
+  font-size: 60px;
+} 
+}

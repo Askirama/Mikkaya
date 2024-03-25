@@ -1,0 +1,100 @@
+body{
+    background: linear-gradient(rgba(0,0,0,0.65)
+    ,rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0.38),rgba(0,0,0,0.0)), url("pic3.png")no-repeat;
+    background-size:cover;
+    overflow-x: hidden;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+    position: relative;
+}
+.nav-links ul li a{
+    text-decoration: none; 
+    color: #fff;
+    font-size: 20px;
+    }
+
+.nav-links ul li::after{ 
+     content: '';
+     width: 0;
+     height: 2px;
+     background: rgb(1,43,9);
+     display:block;
+     margin: auto;
+     transition: 0.5s;
+}
+.nav-links ul li:hover:after{
+    width: 100%;
+}
+h1 { position: relative;
+    color: bisque;
+    left: 5%;
+    font-family: Arial;
+    font-size: 50px;
+    text-transform: uppercase;}
+
+h2 { position:relative;
+        color: bisque;
+        left: 5%;
+        font-family: Arial;
+        font-size: 25px;
+       }
+    
+.text-box{ position: relative;
+        color: bisque;
+        left: 5%;
+        top: 15%;
+        font-size: 20px;
+        font-family: Arial;}
+
+nav .fa{
+            display: none;
+        } 
+@media screen
+        and (max-device-width: 600px)
+        and (min-device-width: 350px)
+{
+body{
+        background-size: 200rem 200rem;
+    }
+.nav-links ul li a{
+    font-size: 50px;
+    padding: 30px;
+    text-align: right;
+}
+h1{
+    font-size: 50px;
+    position: relative;
+    top: 15rem;
+}
+h2{
+    position: relative;
+    font-size: 30px;
+    margin-left: 2px;
+    top: 15rem;
+}
+.text-box{
+    position: relative;
+    font-size: 15px;
+    padding: auto;
+    margin: auto;
+    border:2px;
+    top:30rem;
+    max-width: 56rem;
+}
+nav .fa{
+    display: block;
+    color: #fff;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    align-self: right;
+}
+
+}

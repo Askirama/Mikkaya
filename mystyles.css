@@ -1,0 +1,502 @@
+body { 
+    background: url("img1.jpg")no-repeat;
+    font-family: Arial, sans-serif;
+    background-size: 100% 15% ;
+}
+.box{
+    top: 0;
+    position: relative;
+    width: 100%;
+    height: 1000px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    text-decoration: none; 
+    color: #fff;
+    font-size: 20px;
+    }
+
+.nav-links ul li::after{ 
+     content: '';
+     width: 0;
+     height: 2px;
+     background: rgb(1,43,9);
+     display:block;
+     margin: auto;
+     transition: 0.5s;
+}
+.nav-links ul li:hover:after{
+    width: 100%;
+}
+    
+#box1{
+        position: relative;
+        min-width: 200px;
+        max-width: 1200px;
+        background-color: rgb(1, 43, 7);
+        top: 20rem;
+        margin-left: 30px;
+        text-align: center;
+        margin: auto;
+        padding: 3px 3px;
+}
+.firstp{  
+    text-align: center;
+    font-size: 30px;
+    padding: auto;
+    color: bisque;}
+
+p{  position: relative; 
+        text-align: center;
+        font-size: 22px;
+        padding: auto;
+        color: bisque;}
+li{
+    font-size: 20px;
+    color: bisque;
+    text-align: left;
+    margin-left: 20px;
+    padding-bottom: 4px;
+}
+      
+.p3{ position: relative;
+        color: rgb(14, 14, 37);
+        font-size: 45px;
+        margin-right: 10px;
+        margin-left: 5px;
+        top: 23rem;
+        right: 33rem;
+        margin-inline: auto;
+  }
+
+.p4{ position: relative;
+        color: rgb(14, 14, 37);
+        font-size: 18px;
+        margin-left: 10px;
+        top: 15rem;
+        left: 23%;
+        margin: auto;
+        text-align: left;
+}
+
+div.content{
+    position: relative;
+    top:22rem;
+    height: 310px;
+    width: 400px;
+    margin: 5px;
+    float: left;
+    left:2rem;
+    margin: auto;
+    padding: 10px;
+}
+div#first{
+    background-color: rgb(1, 43, 7);
+}
+div#second{
+    background-color: rgb(138, 207, 148);
+}
+div#third{
+    background-color: rgb(26, 128, 41);
+}
+
+div#four{
+    background-color: rgb(14, 27, 16);
+}
+div.content2{
+    background-image: url(corn.jpg);
+    position: relative;
+    top: 60rem;
+    height: 555px;
+    width: 100%;
+    margin: auto;
+}
+div.content3{
+    background-color: rgb(1, 43, 7);
+    position: relative;
+    top: 23rem;
+    height: 500px;
+    width: 1200px;
+    margin: 10px;
+    text-align: left;
+    left: 5rem;
+
+}
+h5{
+    text-align: left;
+    font-size: 37px;
+    color: rgb(252, 142, 8);
+    margin-left: 20px;
+}
+h6{
+    position: relative;
+    top: 23rem;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(252, 142, 8);
+    background-color: rgb(1, 43, 7);
+}
+
+div.content4{
+    position: relative;
+    width: 100%;
+    height: 380px;
+    top: 22rem;
+    margin: auto;
+}
+#Kashim{
+    position: relative;
+    top: 1%;
+    width:300px;
+    height:300px;
+    text-align: left;
+    margin: auto;
+
+}
+#object1{
+    position: relative;
+    font-size: 30px;
+    color: black;
+    bottom: 70%;
+    margin: auto;
+    left: 7rem;
+}
+#object2{
+    position: relative;
+    bottom: 70%;
+    font-size: 17px;
+    color: black;
+    margin: auto;
+    width: 110rem;
+    right: 5rem;
+}
+div.content5{
+    position: relative;
+    width: 100%;
+    height: 380px;
+    top: 20rem;
+    margin: auto;
+}
+#Yakubu{
+    position: relative;
+    top: 1%;
+    width:300px;
+    height:300px;
+    text-align: left;
+    margin: auto;
+
+}
+#object3{
+    position: relative;
+    font-size: 30px;
+    color: black;
+    bottom: 70%;
+    margin: auto;
+    left: 7rem;
+}
+#object4{
+    position: relative;
+    bottom: 70%;
+    font-size: 17px;
+    color: black;
+    margin: auto;
+    width: 110rem;
+    right: 5rem;
+}
+div.content6{
+    position: relative;
+    width: 100%;
+    height: 380px;
+    top: 20rem;
+}
+#Ibrahim{
+    position: relative;
+    top: 1%;
+    width:300px;
+    height:300px;
+    text-align: left;
+    margin-right: 20px;
+    padding-right: 10px;
+
+}
+#object5{
+    position: relative;
+    font-size: 30px;
+    color: black;
+    bottom: 70%;
+    margin: auto;
+    left: 7rem;
+}
+#object6{
+    position: relative;
+    bottom: 70%;
+    font-size: 17px;
+    color: black;
+    margin: auto;
+    width: 110rem;
+    right: 5rem;
+}
+div.content7{
+    position: relative;
+    width: 100%;
+    height: 180px;
+    background-color: rgb(1, 43, 7);
+    top: 20rem;
+    min-width: 200px;
+
+}
+#object7{
+    position: relative;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    right: 40%;
+    padding: 10px;
+}
+#object8{
+    position: relative;
+    bottom: 10%;
+    right:25%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    padding: auto;
+}
+.button{
+    position: relative;
+    bottom: 15%;
+    padding: 10px 22px;
+    left:85%;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(104, 250, 74);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    box-shadow: 0 5px 10px rgba(1, 43, 7);
+}
+a{
+    text-decoration: none!important;
+    color: #000;
+
+}
+.button:active{
+     transform: scale(0.96);
+}
+
+#object10{
+    position: relative;
+    top: 25rem;
+    color: #000;
+}
+#last{
+    position: relative;
+    top: 25rem;
+    color: #6e6e6e;
+    font-size: 15px;
+}
+
+#list1{
+    font-size: 30px;
+}
+#pp2{
+    font-size: 20px;
+    color: #000;
+}
+
+
+@media screen
+ and (max-device-width: 1000px)
+ and (min-device-width: 350px){
+body { background-size: 165% 20%; /* Adjust the background size for smaller screens */ } 
+.box { height: auto; /* Adjust the height to fit the content */ } 
+.nav-links { text-align: right; /* Center the navigation links */ } 
+.nav-links ul li { position: relative;
+                    right: 0;
+                    top: 0; 
+                    padding: 5px 2rem;} 
+.nav-links ul li a{
+    font-size: 70px;
+}
+#box1 { left: 15rem; /* Adjust the position to fit the screen */ 
+        top: 80rem; /* Adjust the position to fit the screen */
+        margin: 20px;
+        width: 100rem; /* Add some margin for spacing */
+        height: max-content; } 
+#firstp{
+            font-size: 60px;
+        }
+li { font-size: 40px;
+    margin-left: 0; /* Remove the left margin for easier reading */ 
+} 
+.p3 { font-size: 70px; /* Adjust the font size for smaller screens */ 
+       right: 15rem;
+       top: 90rem; }
+.p4{
+    top: 80rem;
+    left: 30rem;
+    font-size: 50px;
+} 
+.list4{
+    font-size: 50px;
+    color: beige;
+}
+
+h6{
+    width: 100rem;
+    top: 60rem;
+    font-size: 100px;
+}
+h5{
+    font-size: 80px;
+}
+.content{
+    top: 50rem;
+    height: max-content;
+}
+#object10{
+    position: relative;
+    top: 588rem;
+    color: #000;
+    width: 100rem;
+
+}
+#last{
+    position: relative;
+    top: 590rem;
+    margin-bottom: 10px; 
+    left: 15rem;   
+}
+
+div.content7{
+    top: 585rem;
+    width: 100rem;
+    height: max-content;
+    padding: 5px 5px;
+}
+#Ibrahim{
+    top: 105rem;
+    height:60rem;
+    width: 60rem;
+margin-left: 20rem;}
+#object5{
+    left: 20rem;
+    font-size: 80px;
+    top:32rem;
+}
+div.content6{
+    position: relative;
+    top: 320rem;
+}
+#object6{
+    font-size: 70px;
+    width: 80rem;
+    left: 10rem;
+    text-align: left;
+    top: 100rem;
+}
+div.content5{
+    position: relative;
+    width: 100%;
+    height: 380px;
+    top: 240rem;
+    margin: 20px;
+}
+#Yakubu{
+    top: 10rem;
+    height:60rem;
+    width: 60rem;
+    margin-left: 20rem;
+}
+#object3{
+    left: 20rem;
+    font-size: 80px;
+    bottom: 63rem;
+}
+#object4{
+    font-size: 70px;
+    width: 80rem;
+    left: 10rem;
+    text-align: left;
+    top: 10rem;
+}
+#Kashim{
+    top: 10rem;
+    height:60rem;
+    width: 60rem;
+    margin-left: 20rem;
+}
+#object1{
+    left: 20rem;
+    font-size: 80px;
+    bottom: 63rem;
+}
+#object2{
+    font-size: 70px;
+    width: 80rem;
+    left: 10rem;
+    text-align: left;
+    top: 10rem;  
+}
+div.content4{
+    position: relative;
+    top: 55rem;
+}
+div.content3{
+    position: relative;
+    top: 60rem;
+    height: max-content;
+    width: 90rem;
+    padding: 10px 10px;
+}
+div.content2{
+    position: relative;
+    top: 225rem;
+    width: 110rem;
+    height: 170rem;
+}
+div.content{
+    position: relative;
+    top:90rem;
+    width: 70rem;
+    height: fit-content;
+    left: 15rem;
+}
+#pp1{
+    font-size: 50px;
+}
+
+#object7{
+    font-size: 70px;
+    right: 0.5px;}
+#object8{
+    font-size: 60px;
+    right: 10px;
+}
+.button{
+    font-size: 50px;
+    left: 40%;
+    top: 2px;
+    width: max-content;
+}
+#pusinp{
+    font-size: 70px;
+}
+li{
+    font-size: 70px;
+    padding: 20px;
+}
+p{
+    font-size: 80px;
+}
+ }
