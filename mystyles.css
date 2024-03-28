@@ -316,7 +316,7 @@ a{
 
 
 @media screen
- and (max-device-width: 1000px)
+ and (max-device-width: 500px)
  and (min-device-width: 350px){
 body { background-size: 165% 20%; /* Adjust the background size for smaller screens */ } 
 .box { height: auto; /* Adjust the height to fit the content */ } 
@@ -381,7 +381,7 @@ h5{
 div.content7{
     top: 585rem;
     width: 100rem;
-    height: max-content;
+    height: 40rem;
     padding: 5px 5px;
 }
 #Ibrahim{
@@ -475,10 +475,14 @@ div.content{
 #pp1{
     font-size: 50px;
 }
+#pp2{
+    font-size: 50px;
+}
 
 #object7{
     font-size: 70px;
-    right: 0.5px;}
+    right: 0.5px;
+    padding: auto;}
 #object8{
     font-size: 60px;
     right: 10px;
