@@ -114,23 +114,34 @@ bottom: 10rem;
   top: 13rem;
 }
 @media screen
-and (max-device-width: 1000px)
+and (max-device-width: 700px)
 and (min-device-width: 350px){ 
-.nav-links { font-size: 30px; } 
-.nav-links ul li { display: block; padding: 8px 0; } 
-.container{
-display: block;
-position: relative;
-padding-left: 10rem;
-top: 50rem;
-height: 100rem;
+  body { background-size: 165% 20%; /* Adjust the background size for smaller screens */ } 
+  .box { height: auto; /* Adjust the height to fit the content */ } 
+  .nav-links { text-align: right; /* Center the navigation links */ } 
+  .nav-links ul li { position: relative;
+                      right: 0;
+                      top: 0; 
+                      padding: 5px 2rem;} 
+  .nav-links ul li a{
+      font-size: 60px;
+      color:rgb(1, 43, 7);
 }
 body{
   background-size: 100rem 50rem;
 }
+.container{
+  top: 50rem;
+}
 .myhead{
   position: relative;
-  right: 30rem;
+  right: 40rem;
+  top: 70rem;
+}
+h1{
+  bottom: 7rem;
+  font-size: 80px;
+  color:#acf7af
 }
 h2{
   font-size: 70px;
@@ -141,10 +152,13 @@ h3{
 #object10{
   width: 100rem;
   left: 0;
-  bottom: 10rem;
+  bottom: 0rem;
 }
 #last{
-  bottom: 10rem;
+  bottom: 0rem;
+  left:40rem;
+  font-size: 10px;
+
 }
 #name{
   width: 30rem;
