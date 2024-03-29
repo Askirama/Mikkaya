@@ -57,7 +57,7 @@ nav .fa{
             display: none;
         } 
 @media screen
-        and (max-device-width: 600px)
+        and (max-device-width: 1000px)
         and (min-device-width: 350px)
 {
 body{
@@ -81,7 +81,7 @@ h2{
 }
 .text-box{
     position: relative;
-    font-size: 15px;
+    font-size: 35px;
     padding: auto;
     margin: auto;
     border:2px;
