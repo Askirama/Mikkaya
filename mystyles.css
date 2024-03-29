@@ -316,7 +316,7 @@ a{
 
 
 @media screen
- and (max-device-width: 500px)
+ and (max-device-width: 1000px)
  and (min-device-width: 350px){
 body { background-size: 165% 20%; /* Adjust the background size for smaller screens */ } 
 .box { height: auto; /* Adjust the height to fit the content */ } 
